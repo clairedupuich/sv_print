@@ -144,61 +144,15 @@ h4 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 19em;
-    padding: 12em 2em 4em 30em;
-    color: ivory;
-}
-.img_big p {
-    padding-left: 17em;
-    margin-top: 3em;
-}
-/* list de produit */
-.line {
-    margin: 3em auto;
-}
-.container {
-    position: relative;
-}
-.line-big {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.text-center {
-    margin-left: 3.5em;
-}
-.product_discription1 {
-    width: 29%;
-    height: 19em;
-    position: absolute;
-    background-color: rgb(138, 49, 49);
-    display: none;
-   top: 14em;
-   right: 46em;
+    height: 41em;
+    margin:;
 }
 
-.product_discription2 {
-    width: 29%;
-    height: 19em;
-    position: absolute;
-    background-color: rgb(138, 49, 49);
-    display: none;
-   top: 14em;
-   right: 13em;
 
-}
-
-.produit_list2 {
-    margin-left: 8em;
-}
-.sortir:hover .product_discription {
-    display: block;
-}
 /* 优势 */
 .avantages {
     text-align: center;
-    margin: 12em 3em;
+    margin: 5em 3em;
 }
 .avantages_contente {
     display: flex;
@@ -221,25 +175,16 @@ h4 {
 }
 
 /* 客户案例 */
-.padding-top {
-    text-align: center;
-    width: 100%;
-    margin: 3em auto;
-}
 .logo_client {
     margin: 2.5em;
     width: 19%;
 }
-.client_logo {
-    margin-left: 12em;
-    margin-bottom: 9em;
-}
+
 /* 应用领域 */
 .text-domaines {
     text-align: center;
     width: 100%;
     margin: 3em auto;
-    
 }
 .text-domaines img {
     width: 100%;
@@ -254,7 +199,7 @@ h4 {
 footer {
     
     color: snow;
-    margin-top: 2em;
+    margin-top: 8em;
     width: 100%;
     background-color: #031322;
     margin-bottom: 0;

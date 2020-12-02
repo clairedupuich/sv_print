@@ -231,8 +231,7 @@ h4 {
     width: 19%;
 }
 .client_logo {
-    margin-left: 12em;
-    margin-bottom: 9em;
+    margin-left: ;
 }
 /* 应用领域 */
 .text-domaines {
@@ -254,7 +253,7 @@ h4 {
 footer {
     
     color: snow;
-    margin-top: 2em;
+    margin-top: 8em;
     width: 100%;
     background-color: #031322;
     margin-bottom: 0;

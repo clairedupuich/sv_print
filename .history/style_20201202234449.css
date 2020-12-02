@@ -221,19 +221,12 @@ h4 {
 }
 
 /* 客户案例 */
-.padding-top {
-    text-align: center;
-    width: 100%;
-    margin: 3em auto;
-}
+
 .logo_client {
     margin: 2.5em;
     width: 19%;
 }
-.client_logo {
-    margin-left: 12em;
-    margin-bottom: 9em;
-}
+
 /* 应用领域 */
 .text-domaines {
     text-align: center;
@@ -254,7 +247,7 @@ h4 {
 footer {
     
     color: snow;
-    margin-top: 2em;
+    margin-top: 8em;
     width: 100%;
     background-color: #031322;
     margin-bottom: 0;
