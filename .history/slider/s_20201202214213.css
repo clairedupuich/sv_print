@@ -1,0 +1,63 @@
+/*section de centre d'interet */
+
+
+  
+  .iimage {
+    height: 46em;
+    width: 100%;
+  }
+  
+  .review-item {
+    text-align: center;
+    padding: 2em 17em 0;
+    margin-bottom: 1em;
+    cursor: url(./image/Butterfly.net.ico), url(../image/Butterfly_72px_544652_easyicon.net.png), url(cursors/cursor.gif), pointer;
+  }
+  .review-item h3 {
+    font-style: italic;
+  }
+  .boutton_change {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  cursor: pointer;
+  padding: 2em 46% 0;
+  }
+  .boutton_change a {
+  color: #000000;
+  text-decoration: none;
+  }
+  .boutton_change a li {
+  list-style: none;
+  }
+  #view {
+  position: relative;
+  width: 100%;
+  height:46em;
+  /*  margin-left: 10%;  */
+  
+  overflow: hidden;
+  }
+  
+  #view:after {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  }
+  #img_list {
+  position: absolute;
+  width: 100%;
+  
+  }
+  
+  #img_list li {
+  float: left;
+   width: 100%;
+  height:46em; 
+  /*  z-index: -10; ??????????????????????????marche pas */
+  }
+  .clean_b {
+  clear: both;
+  }
