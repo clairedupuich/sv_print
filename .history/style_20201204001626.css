@@ -173,26 +173,22 @@ h4 {
 }
 .product_discription1 {
     width: 29%;
-    height: 14em;
+    height: 19em;
     position: absolute;
     background-color: rgb(138, 49, 49);
     display: none;
-   top: 16.5em;
+   top: 16em;
    right: 42em;
-   color: ivory;
-   padding-top: 5em;
 }
 
 .product_discription2 {
     width: 29%;
-    height: 14em;
+    height: 19em;
     position: absolute;
     background-color: rgb(138, 49, 49);
     display: none;
-   top: 16.5em;
+   top: 14em;
    right: 13em;
-   color: ivory;
-   padding-top: 5em;
 
 }
 

@@ -68,11 +68,9 @@ h4 {
     list-style: none;
     
 }
-.logo_nav ul li {
-    margin-left: 2em;
-}
+.logo_nav ul li
 .logo_nav ul li a{
-    
+    margin-left: 2em;
     text-decoration: none;
     color: rgb(24, 22, 22);
     text-align: center;
@@ -157,7 +155,7 @@ h4 {
 }
 /* list de produit */
 .line {
-    margin: 6em auto;
+    margin: 3em auto;
 }
 .container {
     position: relative;
@@ -173,26 +171,22 @@ h4 {
 }
 .product_discription1 {
     width: 29%;
-    height: 14em;
+    height: 19em;
     position: absolute;
     background-color: rgb(138, 49, 49);
     display: none;
-   top: 16.5em;
-   right: 42em;
-   color: ivory;
-   padding-top: 5em;
+   top: 14em;
+   right: 46em;
 }
 
 .product_discription2 {
     width: 29%;
-    height: 14em;
+    height: 19em;
     position: absolute;
     background-color: rgb(138, 49, 49);
     display: none;
-   top: 16.5em;
+   top: 14em;
    right: 13em;
-   color: ivory;
-   padding-top: 5em;
 
 }
 
@@ -201,9 +195,6 @@ h4 {
 }
 .sortir:hover .product_discription {
     display: block;
-}
-.produit_list {
-    height: 20em;
 }
 /* 优势 */
 .avantages {
@@ -275,7 +266,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 3em;
-    padding-bottom: 1em;
+    padding-bottom: 3em;
 }
 .texFooter {
     display: flex;
@@ -297,9 +288,11 @@ footer {
    padding: 0.9em;
 }
 .return_top {
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: bold;
     color: blanchedalmond;
-    text-align: center;
-    margin-left: 14em;
+    text-align: right;
+    padding-bottom: 2em;
+    margin-right: 2em;
+    margin-bottom: -3em;
 }
