@@ -1,0 +1,241 @@
+/* 主要部分 style.css */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #3a3939;
+    background: #FFF;
+    height: 100%;
+   
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.logo {
+    width: 12%;
+    min-width: 4em;
+    height: 12%;
+    min-width: 4em;
+}
+.nav_tele {
+    margin-right: 2em;
+}
+.tel {
+    display: block;
+    margin-bottom: 1.5em;
+    text-align: right;
+    line-height: 20px;
+    color: #808080;
+    font-size: 14px    
+}
+
+.tel img {
+    vertical-align: middle;
+}
+
+.logo_nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1em;
+    justify-content: space-between;
+}
+.logo_nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+.logo_nav ul li a{
+    margin-left: 2em;
+    text-decoration: none;
+    color: rgb(24, 22, 22);
+    text-align: center;
+}
+.logo_nav ul li:hover {
+     background-color: rgb(78, 120, 135);
+     background-clip: content-box;
+     
+}
+/* nav 结束 */
+
+/* slider */
+
+.img_slider {
+    width: 100%;
+    height: 45em;
+    position: absolute;
+}
+#view {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+#view:after {
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+  }
+  #img_list {
+    position: absolute;
+    width: 100%;
+  }
+  #img_list li {
+    float: left;
+     width: 100%;
+    height:46em; 
+  }
+.blankbig {
+    clear: both;
+}
+
+
+.boutton_change {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    cursor: pointer;
+    padding: 2em 46% 0;
+  }
+  .boutton_change a {
+    color: #000000;
+    text-decoration: none;
+  }
+  .boutton_change a li {
+    list-style: none;
+  }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 3.5em auto;
+    text-align: center;
+}
+/* image replace */
+.img_big {
+    background-image: url(img/slider_img1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 19em;
+    padding: 12em 2em 4em 30em;
+    color: ivory;
+}
+.img_big p {
+    padding-left: 17em;
+    margin-top: 3em;
+}
+
+
+/* footer commence */
+footer {
+    
+    color: snow;
+    margin-top: 2em;
+    width: 100%;
+    background-color: #031322;
+    margin-bottom: 0;
+}
+.textFooterC {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.texFooter {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.7em;
+    
+}
+
+.textFooterEle {
+    text-decoration: none;
+    list-style: none;
+    color: snow;
+}
+.iconsFooter {
+    background-color: #0F4C81;
+    text-align: center;
+}  
+.iconFooter{
+   padding: 0.9em;
+}
+.return_top {
+    width: 100%;
+    font-size: 3em;
+    font-weight: bold;
+    color: blanchedalmond;
+    text-align: center;
+    padding-bottom: 2em;
+    margin-left: 12em;
+    /* margin-bottom: -3em; */
+}
+
+/* page contact commance */
+.container_cont {
+    margin: 3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.top ,
+.bott{
+    width: 30%;
+    min-width: 20em;
+    text-align: center;
+    margin-bottom: 2em;
+    
+}
+.about_us {
+    border: solid rgb(201, 197, 197) 3px;
+    line-height: 3em;
+}
+.li_left {
+    padding: 2em auto;
+    color: black;
+    border: solid rgb(201, 197, 197) 3px;
+}
+.li_left:hover {
+    background-color: rgb(201, 197, 197);
+}
+.li_left a {
+    color: rgb(26, 24, 24);
+}
+.titre {
+    padding: 2.5em auto;
+    color: snow;
+    background-color: red;
+    font-size: 1.5em;
+    font-weight: bold;
+}
