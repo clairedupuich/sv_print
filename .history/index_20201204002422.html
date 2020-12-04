@@ -98,26 +98,43 @@
     </div>
 
     <div class="right" id="cont">
-      <div class="presant">
-        <h3>qui somme nous ?</h3>
-        <p>Un projet de développement,augmentation de l'effectif, évolution des besoins, remplacement pour un modèle récent ou encore une panne
-          Nous sélectionnons.	ok
-          Tu peux rajouter:
-          Toujours à la recherche des dernières technologies, imprimante du moment , tendances
-          Il faut mettre en avant que nous sommes en veille constante pour leur trouver les meilleurs produits adaptés à leur besoin
-          On le fait pour eux, on les libère de toutes recherches, on se met à leur service.</p>
-      </div>
-      <div class="avandage_e">
-        <div class="avantage_tex">
-          <h3>Pourquoi nous ?</h3>
-          <p>Tu peux rajouter:
-            Toujours à la recherche des dernières technologies, imprimante du moment , tendances
-            Il faut mettre en avant que nous sommes en veille constante pour leur trouver les meilleurs produits adaptés à leur besoin
-            On le fait pour eux, on les libère de toutes recherches, on se met à leur service.</p>
-        </div>
-        <img src="img/business_1.png" alt="" class="img_avan">
-      </div>
+      <div class="contact_head">
+      <h3 class="padding">Au plaisir de vous entendre</h3>
+      <p class="p_padding">Si vous avez des questions sur nos produits, n'hésitez pas à vous renseigner ici. </p>
+     </div>    
+              <form action="formulaire.php" method="POST" class="contact-form ">
+                  
+                      <div class="form-nom form">
+                          <label for="f-nom" class="fln nom">Votre   nom</label>
+                        <br>  <input type="text" name="f-nom" id="f-nom" class="name"
+                              required>
+                      </div>
+                      <div class="form-prenom form">
+                        <label for="f-prenom" class="fln prenom">Votre prenom</label>
+                       <br> <input type="text" name="prenom" id="prenom" class="name"
+                            required>
+                    </div>
 
+                      <div class="form-emil form">
+                          <label for="f-email" class="fln email">Votre  E-mail</label>
+                        <br>  <input type="email" name="f-email" id="f-email" 
+                              class="name email" required>
+                      </div>
+                  
+
+                  <div class="form-message form">
+                      <label for="f-message" class="fml">Laissez votre message ici</label> <br>
+                      <textarea name="f-message" id="f-message" rows="8" class="textarea"
+                          required></textarea>
+                  </div>
+                  <div class="contact-submit">
+
+                      <input type="submit" value="envoyer" class="submit">
+
+                  </div>
+              </form>
+      
+    </div>
   </div>
 </main>
 

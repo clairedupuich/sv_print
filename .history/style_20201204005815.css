@@ -261,7 +261,7 @@ footer {
 .presant {
     width: 80%;
     margin-left: 7em;
-    margin-bottom: 8em;
+    margin-bottom: 5em;
 }
 .avandage_e {
     display: flex;
@@ -269,11 +269,11 @@ footer {
     justify-content: space-around;
 }
 .avantage_tex {
-    width: 39%;
+    width: 3%;
     text-align: center;
 }
 .img_avan {
     border-radius: 50%;
-    width: 16em;
-    height:16em ;
+    width: 20em;
+    height: 20em ;
 }
